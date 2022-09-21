@@ -6,9 +6,9 @@ import Title from './Title';
 class Missions extends React.Component {
   render() {
     return (
-      <div data-testid="missions">
+      <div className="mis" data-testid="missions">
         <Title headline="Missões" />
-        <li>
+        <li className="missoes">
           {missions.map((planeta, index) => (<MissionCard
             key={ index }
             name={ planeta.name }
