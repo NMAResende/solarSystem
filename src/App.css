@@ -16,8 +16,8 @@ body {
 .Title {
   color: white;
   font-size: 25px;
-  text-align: center;
   margin-bottom: 80px;
+  text-align: center;
 }
 
 .listaPlanetas {
@@ -38,20 +38,20 @@ img {
   background-color: rgba(46, 46, 46);
   border: 2px solid white;
   border-radius: 30px;
-  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.9);
   color: white;
   height: 1776px;
   left: 200px;
-  width: 1098px;
-  top: 600px;
   position: absolute;
+  top: 600px;
+  width: 1098px;
 }
 
 .missoes {
   color: white;
   display: grid;
-  position: relative;
   grid-gap: 20px;
+  position: relative;
   grid-template-columns: repeat(2, 1fr);
   padding: 20px;
 }
