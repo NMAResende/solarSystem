@@ -3,20 +3,20 @@
 }
 
 body {
-  background-image: url("./images/background.jpg");
+  background-image: url('./images/background.jpg');
 }
 
 .header {
   color: white;
   font-size: 30px;
-  text-align: center;
   padding-top: 30px;
+  text-align: center;
 }
 
 .Title {
   color: white;
-  text-align: center;
   font-size: 25px;
+  text-align: center;
   margin-bottom: 80px;
 }
 
@@ -38,20 +38,20 @@ img {
   background-color: rgba(46, 46, 46);
   border: 2px solid white;
   border-radius: 30px;
-  box-shadow: 0px 4px 14px rgb(0, 0, 0, 0.9);
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.9);
   color: white;
-  position: absolute;
   height: 1776px;
-  width: 1098px;
   left: 200px;
+  width: 1098px;
   top: 600px;
+  position: absolute;
 }
 
 .missoes {
   color: white;
-  position: relative;
   display: grid;
-  grid-gap:20px;
+  position: relative;
+  grid-gap: 20px;
   grid-template-columns: repeat(2, 1fr);
   padding: 20px;
 }
@@ -64,7 +64,7 @@ img {
 
 .nome {
   border-bottom: 1px solid white;
-  color: rgb(143,173,213);
+  color: rgb(143, 173, 213);
   font-size: 25px;
 }
 
