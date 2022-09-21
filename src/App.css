@@ -7,10 +7,9 @@ body {
 }
 
 .header {
-  text-align: center;
   color: white;
   font-size: 30px;
-  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-";
+  text-align: center;
   padding-top: 30px;
 }
 
@@ -18,7 +17,6 @@ body {
   color: white;
   text-align: center;
   font-size: 25px;
-  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-";
   margin-bottom: 80px;
 }
 
@@ -30,31 +28,31 @@ body {
 }
 
 img {
-  display: inline-block;
   box-shadow: inset 4px -3px 4px rgba(0, 0, 0, 0.5);
-  width: 144px;
+  display: inline-block;
   height: 109px;
+  width: 144px;
 }
 
 .mis {
-  border: 2px solid white;
   background-color: rgba(46, 46, 46);
-  color: white;
-  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.9);
+  border: 2px solid white;
   border-radius: 30px;
+  box-shadow: 0px 4px 14px rgb(0, 0, 0, 0.9);
+  color: white;
   position: absolute;
-  width: 1098px;
   height: 1776px;
+  width: 1098px;
   left: 200px;
   top: 600px;
 }
 
 .missoes {
-  position: relative;
   color: white;
+  position: relative;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   grid-gap:20px;
+  grid-template-columns: repeat(2, 1fr);
   padding: 20px;
 }
 
@@ -65,10 +63,9 @@ img {
 }
 
 .nome {
-  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-";
-  font-size: 25px;
-  color: rgb(143,173,213);
   border-bottom: 1px solid white;
+  color: rgb(143,173,213);
+  font-size: 25px;
 }
 
 .ano {
