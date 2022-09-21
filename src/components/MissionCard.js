@@ -3,7 +3,7 @@ import React from 'react';
 
 class MissionCard extends React.Component {
   render() {
-    const { planetas: { name, year, country, destination } } = this.props;
+    const { name, year, country, destination } = this.props;
     return (
       <div data-testid="mission-card">
         <p data-testid="mission-name">{name}</p>
@@ -16,12 +16,10 @@ class MissionCard extends React.Component {
 }
 
 MissionCard.propTypes = {
-  planetas: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    year: PropTypes.number.isRequired,
-    country: PropTypes.string.isRequired,
-    destination: PropTypes.string.isRequired,
-  }).isRequired,
+  name: PropTypes.string.isRequired,
+  year: PropTypes.number.isRequired,
+  country: PropTypes.string.isRequired,
+  destination: PropTypes.string.isRequired,
 };
 
 export default MissionCard;

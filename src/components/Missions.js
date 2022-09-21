@@ -11,7 +11,10 @@ class Missions extends React.Component {
         <li>
           {missions.map((planeta, index) => (<MissionCard
             key={ index }
-            planetas={ planeta }
+            name={ planeta.name }
+            year={ planeta.year }
+            country={ planeta.country }
+            destination={ planeta.destination }
           />))}
         </li>
       </div>
