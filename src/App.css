@@ -52,8 +52,8 @@ img {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(2, 1fr);
-  position: relative;
   padding: 20px;
+  position: relative;
 }
 
 .conteiner {
